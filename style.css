@@ -19,7 +19,7 @@ h2{
 }
 
 header{
-    margin-bottom: 56px;
+    margin-bottom: 128px;
 }
 
 #game{
@@ -32,7 +32,7 @@ header{
 }
 
 #game-result{
-    margin: 100px 0px;
+    margin: 100px 0 64px 0
 }
 
 #selector-button{
