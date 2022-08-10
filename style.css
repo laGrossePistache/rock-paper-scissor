@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+    background-color: #513252;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFC18E;
+    margin-top: 48px;
+}
+
+h2{
+    margin: 12px;
+}
+
+header{
+    margin-bottom: 56px;
+}
+
+#game{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #7A4069;
+    padding: 14px 14px;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+#game-result{
+    margin: 100px 0px;
+}
+
+#selector-button{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    width: 64;
+	background-color:#CA4E79;
+	border-radius:5px;
+	border:1px solid #513252;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+    margin: 0px 12px 24px 0px;
+}
+.button:hover {
+	background-color:#513252;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
