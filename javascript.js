@@ -12,7 +12,17 @@ const roundWinnerElement = document.querySelector("#round-winner");
 document.querySelector('.rock-button').addEventListener("click", ()=> playRound("Rock", getComputerChoice()));
 document.querySelector('.paper-button').addEventListener("click", ()=> playRound("Paper", getComputerChoice()));
 document.querySelector('.scissors-button').addEventListener("click", ()=> playRound("Scissors", getComputerChoice()));
+document.querySelector(".reset-button").addEventListener("click", () => resetGame());
 
+
+
+function resetGame(){
+    computerScore = 0;
+    playerScore = 0;
+    roundWinnerElement.textContent = "Still waiting for player's choice";
+    playerScoreElement.textContent = `${playerScore}`;
+    computerScoreElement.textContent = `${computerScore}`;
+}
 
 function getComputerChoice() {
     let number = Math.random() * (2 - 0 + 1) - 0;
